@@ -11,3 +11,4 @@ package autonoma.aplicacionpokemon.views;
 public interface IElectrico {
     
 }
+    
