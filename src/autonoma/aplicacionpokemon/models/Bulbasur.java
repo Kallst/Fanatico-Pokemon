@@ -9,6 +9,7 @@ import autonoma.aplicacionpokemon.views.IPlanta;
 
 public class Bulbasur extends Pokemon implements IPlanta {
 
+    
     @Override
     public void atacarPlacaje() {
         System.out.println("Soy Bulbasur y voy a atacar con placaje");

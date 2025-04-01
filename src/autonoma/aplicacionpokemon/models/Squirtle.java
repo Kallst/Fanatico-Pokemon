@@ -9,6 +9,9 @@ import autonoma.aplicacionpokemon.views.IAgua;
 
 public class Squirtle extends Pokemon implements IAgua{
 
+    public Squirtle() {
+    }
+
     @Override
     public void atacarPlacaje() {
         System.out.println("Soy Squirtle y voy a atacar con placaje");

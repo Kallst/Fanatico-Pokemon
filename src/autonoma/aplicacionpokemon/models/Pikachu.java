@@ -9,6 +9,9 @@ import autonoma.aplicacionpokemon.views.IElectrico;
 
 public class Pikachu extends Pokemon implements IElectrico {
 
+    public Pikachu() {
+    }
+    
     @Override
     public void atacarPlacaje() {
         System.out.println("Soy Pikachu y estoy atacando con placaje");

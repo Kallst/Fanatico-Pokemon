@@ -9,6 +9,9 @@ import autonoma.aplicacionpokemon.views.IFuego;
 
 public class Charmander extends Pokemon implements IFuego{
 
+    public Charmander() {
+    }
+
     @Override
     public void atacarPlacaje() {
         System.out.println("Soy Charmander y voy a atacar con placaje");

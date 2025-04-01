@@ -1,5 +1,5 @@
 package autonoma.aplicacionpokemon.main;
-
+import autonoma.aplicacionpokemon.models;
 /**
  *
  * @author Santiago Castro Marles
@@ -7,11 +7,8 @@ package autonoma.aplicacionpokemon.main;
 
 public class AplicacionPokemon {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Bulbasur bulbasur = new Bulbasur ();
     }
     
 }
