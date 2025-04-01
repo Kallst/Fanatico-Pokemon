@@ -9,5 +9,8 @@ package autonoma.aplicacionpokemon.views;
  * @author LAPTOP
  */
 public interface IAgua {
-    
+    public void atacarHidroBomba();
+    public void atacarPistsAgua();
+    public void atacarBurbuja();
+    public void atacarHidroPulso();
 }
