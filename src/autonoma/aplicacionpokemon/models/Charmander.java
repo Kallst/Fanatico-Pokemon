@@ -9,37 +9,44 @@ import autonoma.aplicacionpokemon.views.IFuego;
 
 public class Charmander extends Pokemon implements IFuego{
 
+    //Constructor de la clase Charmander
     public Charmander() {
     }
 
+    // Se sobre escribe el metodo atacarPlacaje de la clase abstracta Pokemon
     @Override
-    public void atacarPlacaje() {
-        System.out.println("Soy Charmander y voy a atacar con placaje");
+    public String atacarPlacaje() {
+        return "Soy Charmander y voy a atacar con placaje";
+    }
+    
+    // Se sobre escribe el metodo atacarAraniazo de la clase abstracta Pokemon
+    @Override
+    public String atacarAraniazo() {
+        return "Soy Charmander y voy a atacar con araniazo";
+    }
+    
+    // Se sobre escribe el metodo atacarMordizco de la clase abstracta Pokemon
+    @Override
+    public String atacarMordizco() {
+        return "Soy Charmander y voy a atacar con mordizco";
+    }
+    
+    // Se sobre escribe el metodo atacarPunioFuego de la clase IFuego
+    @Override
+    public String atacarPunioFuego() {
+        return "Soy Charmander y voy a atacar con punio ";
+    }
+
+    // Se sobre escribe el metodo atacarAscuas de la clase IFuego
+    @Override
+    public String atacarAscuas() {
+        return "Soy Charmander y voy a atacar con ascuas";
+        
     }
 
     @Override
-    public void atacarAraniazo() {
-        System.out.println("Soy Charmander y voy a atacar con araniazo");
-    }
-
-    @Override
-    public void atacarMordizco() {
-        System.out.println("Soy Charmander y voy a atacar con mordizco");
-    }
-
-    @Override
-    public void atacarPunioFuego() {
-        System.out.println("Soy Charmander y voy a atacar con punio ");
-    }
-
-    @Override
-    public void atacarAscuas() {
-        System.out.println("Soy Charmander y voy a atacar con ascuas");
-    }
-
-    @Override
-    public void atacarLanzallamas() {
-        System.out.println("Soy Charmander y voy a atacar con lanza llamas");
+    public String atacarLanzallamas() {
+        return "Soy Charmander y voy a atacar con lanza llamas";
     }
     
 }

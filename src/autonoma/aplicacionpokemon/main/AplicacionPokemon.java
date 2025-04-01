@@ -13,50 +13,53 @@ public class AplicacionPokemon {
 
     public static void main(String[] args) {
         
+        // Se instancian las clases de los Pokemones 
+        
         Bulbasur bulba = new Bulbasur();
         Charmander charma = new Charmander();
         Pikachu pika = new Pikachu ();
         Squirtle squirt = new Squirtle();
         
-        bulba.atacarAraniazo();
-        bulba.atacarDrenaje();
-        bulba.atacarHojaAfilada();
-        bulba.atacarLatigoCepa();
-        bulba.atacarMordizco();
-        bulba.atacarParalizar();
-        bulba.atacarPlacaje();
+        
+        // Se llaman a los metodos de la clase Bulbasur
+        
+        System.out.print(bulba.atacarAraniazo()+ "\n");
+        System.out.print(bulba.atacarDrenaje()+ "\n");
+        System.out.print(bulba.atacarHojaAfilada()+ "\n");
+        System.out.print(bulba.atacarLatigoCepa() + "\n");
+        System.out.print(bulba.atacarMordizco() + "\n");
+        System.out.print(bulba.atacarParalizar() + "\n");
+        System.out.print(bulba.atacarPlacaje() + "\n");
+        
+        // Se llaman a los metodos de la clase Pikachu
+        
+        System.out.print(pika.atacarAraniazo() + "\n");
+        System.out.print(pika.atacarImpactrueno() + "\n");
+        System.out.print(pika.atacarMordizco() + "\n");
+        System.out.print(pika.atacarPlacaje() + "\n");
+        System.out.print(pika.atacarPunioTrueno() + "\n");
+        System.out.print(pika.atacarRayo() + "\n");
+        System.out.print(pika.atacarRayoCarga() + "\n");
         
         
-        pika.atacarAraniazo();
-        pika.atacarImpactrueno();
-        pika.atacarMordizco();
-        pika.atacarPlacaje();
-        pika.atacarPunioTrueno();
-        pika.atacarRayo();
-        pika.atacarRayoCarga();
+        // Se llaman a los metodos de la clase Charmander
         
-        bulba.atacarAraniazo();
-        bulba.atacarDrenaje();
-        bulba.atacarHojaAfilada();
-        bulba.atacarLatigoCepa();
-        bulba.atacarMordizco();
-        bulba.atacarParalizar();
-        bulba.atacarPlacaje();
+        System.out.print(charma.atacarAraniazo() + "\n");
+        System.out.print(charma.atacarAscuas() + "\n");
+        System.out.print(charma.atacarLanzallamas() + "\n");
+        System.out.print(charma.atacarMordizco() + "\n");
+        System.out.print(charma.atacarPlacaje() + "\n");
+        System.out.print(charma.atacarPunioFuego() + "\n");
         
-        charma.atacarAraniazo();
-        charma.atacarAscuas();
-        charma.atacarLanzallamas();
-        charma.atacarMordizco();
-        charma.atacarPlacaje();
-        charma.atacarPunioFuego();
+        // Se llaman a los metodos de la clase Squirtle
         
-        squirt.atacarAraniazo();
-        squirt.atacarBurbuja();
-        squirt.atacarHidroBomba();
-        squirt.atacarHidroPulso();
-        squirt.atacarMordizco();
-        squirt.atacarPistsAgua();
-        squirt.atacarPlacaje();
+        System.out.print(squirt.atacarAraniazo() + "\n");
+        System.out.print(squirt.atacarBurbuja() + "\n");
+        System.out.print(squirt.atacarHidroBomba() + "\n");
+        System.out.print(squirt.atacarHidroPulso() + "\n");
+        System.out.print(squirt.atacarMordizco() + "\n");
+        System.out.print(squirt.atacarPistsAgua() + "\n");
+        System.out.print(squirt.atacarPlacaje() + "\n");
         
         
     }

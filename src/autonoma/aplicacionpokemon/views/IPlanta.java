@@ -6,8 +6,11 @@ package autonoma.aplicacionpokemon.views;
  */
 
 public interface IPlanta {
-    public void atacarParalizar();
-    public void atacarDrenaje();
-    public void atacarHojaAfilada();
-    public void atacarLatigoCepa();
+    
+     // Se crean los métodos abstractos de la interfaz para los pokemones de tipo Planta
+    
+    public String atacarParalizar();
+    public String atacarDrenaje();
+    public String atacarHojaAfilada();
+    public String atacarLatigoCepa();
 }

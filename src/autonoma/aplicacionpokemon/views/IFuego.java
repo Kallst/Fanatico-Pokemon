@@ -6,8 +6,11 @@ package autonoma.aplicacionpokemon.views;
  */
 
 public interface IFuego {
-    public void atacarPunioFuego();
-    public void atacarAscuas();
-    public void atacarLanzallamas();
+    
+     // Se crean los métodos abstractos de la interfaz para los pokemones de tipo Fuego
+    
+    public String atacarPunioFuego();
+    public String atacarAscuas();
+    public String atacarLanzallamas();
     
 }

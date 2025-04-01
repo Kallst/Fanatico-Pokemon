@@ -6,8 +6,11 @@ package autonoma.aplicacionpokemon.views;
  */
 
 public interface IAgua {
-    public void atacarHidroBomba();
-    public void atacarPistsAgua();
-    public void atacarBurbuja();
-    public void atacarHidroPulso();
+    
+     // Se crean los métodos abstractos de la interfaz para los pokemones de tipo Agua
+    
+    public String atacarHidroBomba();
+    public String atacarPistsAgua();
+    public String atacarBurbuja();
+    public String atacarHidroPulso();
 }

@@ -6,10 +6,13 @@ package autonoma.aplicacionpokemon.views;
  */
 
 public interface IElectrico {
-    public void atacarImpactrueno();
-    public void atacarPunioTrueno();
-    public void atacarRayo();
-    public void atacarRayoCarga();
+    
+    // Se crean los métodos abstractos de la interfaz para los pokemones de tipo Electrico
+    
+    public String atacarImpactrueno();
+    public String atacarPunioTrueno();
+    public String atacarRayo();
+    public String atacarRayoCarga();
     
 }
     

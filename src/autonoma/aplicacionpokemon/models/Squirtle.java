@@ -13,38 +13,38 @@ public class Squirtle extends Pokemon implements IAgua{
     }
 
     @Override
-    public void atacarPlacaje() {
-        System.out.println("Soy Squirtle y voy a atacar con placaje");
+    public String atacarPlacaje() {
+        return "Soy Squirtle y voy a atacar con placaje";
     }
 
     @Override
-    public void atacarAraniazo() {
-        System.out.println("Soy Squirtle y voy a atacar con araniazo");
+    public String atacarAraniazo() {
+        return "Soy Squirtle y voy a atacar con araniazo";
     }
 
     @Override
-    public void atacarMordizco() {
-        System.out.println("Soy Squirtle y voy a atacar con mordizco");
+    public String atacarMordizco() {
+        return "Soy Squirtle y voy a atacar con mordizco";
     }
 
     @Override
-    public void atacarHidroBomba() {
-        System.out.println("Soy Squirtle y voy a atacar con hidro bomba");
+    public String atacarHidroBomba() {
+        return "Soy Squirtle y voy a atacar con hidro bomba";
     }
 
     @Override
-    public void atacarPistsAgua() {
-        System.out.println("Soy Squirtle y voy a atacar con pistola de agua");
+    public String atacarPistsAgua() {
+        return "Soy Squirtle y voy a atacar con pistola de agua";
     }
 
     @Override
-    public void atacarBurbuja() {
-        System.out.println("Soy Squirtle y voy a atacar con burbujas");
+    public String atacarBurbuja() {
+        return "Soy Squirtle y voy a atacar con burbuja";
     }
 
     @Override
-    public void atacarHidroPulso() {
-        System.out.println("Soy Squirtle y voy a atacar con hidro pulso");
+    public String atacarHidroPulso() {
+        return "Soy Squirtle y voy a atacar con hidro pulso";
     }
     
 }
