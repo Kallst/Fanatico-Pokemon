@@ -6,6 +6,7 @@ import autonoma.aplicacionpokemon.views.IPlanta;
  *
  * @author Santiago Castro Marles
  */
+
 public class Bulbasur extends Pokemon implements IPlanta {
 
     @Override

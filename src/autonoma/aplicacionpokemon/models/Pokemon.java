@@ -2,8 +2,9 @@ package autonoma.aplicacionpokemon.models;
 
 /**
  *
- * @author LAPTOP
+ * @author Santiago Castro Marles
  */
+
 public abstract class Pokemon {
     
     protected int numPokedex;

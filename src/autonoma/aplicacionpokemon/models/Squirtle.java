@@ -1,13 +1,47 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package autonoma.aplicacionpokemon.models;
+
+import autonoma.aplicacionpokemon.views.IAgua;
 
 /**
  *
- * @author LAPTOP
+ * @author Santiago Castro Marles
  */
-public class Squirtle {
+
+public class Squirtle extends Pokemon implements IAgua{
+
+    @Override
+    public void atacarPlacaje() {
+        System.out.println("Soy Squirtle y voy a atacar con placaje");
+    }
+
+    @Override
+    public void atacarAraniazo() {
+        System.out.println("Soy Squirtle y voy a atacar con araniazo");
+    }
+
+    @Override
+    public void atacarMordizco() {
+        System.out.println("Soy Squirtle y voy a atacar con mordizco");
+    }
+
+    @Override
+    public void atacarHidroBomba() {
+        System.out.println("Soy Squirtle y voy a atacar con hidro bomba");
+    }
+
+    @Override
+    public void atacarPistsAgua() {
+        System.out.println("Soy Squirtle y voy a atacar con pistola de agua");
+    }
+
+    @Override
+    public void atacarBurbuja() {
+        System.out.println("Soy Squirtle y voy a atacar con burbujas");
+    }
+
+    @Override
+    public void atacarHidroPulso() {
+        System.out.println("Soy Squirtle y voy a atacar con hidro pulso");
+    }
     
 }
